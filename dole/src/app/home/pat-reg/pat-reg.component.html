@@ -1,0 +1,29 @@
+<div class="bd">
+    <div class="container1 pt-2`">
+        <span class="pt-5">
+            <button  class="btn-primary" id="logout" routerLink="/home">
+                <span class="glyphicon glyphicon-home"></span> 
+              </button>             
+        </span>
+
+          <div class="form-container">
+     
+                <h1 class="text-center pt-3 text" style="color:black;">Patient Register</h1>
+                <form [formGroup]="form" >
+                   
+                        <label class="col-form-label" style="color: black;">User name</label>
+                        <input formControlName="username" style="font-size: 16px;" type="text" class="form-control">
+<!--                        <small *ngIf="name.invalid && name.touched" class="text-danger">User name is required</small>-->
+                     <br>
+            
+                        <label class="col-form-label" style="color: black;">Password:</label>
+                        <input formControlName="password" style="font-size: 16px;" type="password" class="form-control">
+                     <br>
+                        <label class="col-form-label" style="color: black;">Confirm Password:</label>
+                        <input formControlName="conpassword" style="font-size: 16px;" type="password" class="form-control">
+                    <br>
+                <button (click)="submit()"  mat-raised-button type="submit" class="btn">Sign Up</button>
+                </form></div>
+            </div>
+        </div>
+ 
