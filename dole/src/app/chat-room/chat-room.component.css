@@ -1,5 +1,5 @@
 .chat-window {
-	width: 1000px;
+	width: 700px;
 	height: 600px;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -129,4 +129,9 @@
     margin-left: 40px;
     width: 878px;
     resize: none;
+  }
+
+  body
+  {
+    overflow: hidden;
   }

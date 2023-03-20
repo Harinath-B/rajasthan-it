@@ -50,6 +50,8 @@ CORS_ALLOWED_ORIGINS = [
 
 ]
 
+X_FRAME_OPTIONS = 'ALLOW-FROM http://localhost:4200'
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',

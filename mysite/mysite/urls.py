@@ -22,5 +22,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^', include('backend.urls'))
+    url(r'^', include('backend.urls')),
+    url(r'^', include('camera.urls')),
 ]
