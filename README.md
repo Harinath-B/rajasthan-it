@@ -63,6 +63,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Video Link :  https://drive.google.com/drive/folders/1btvQpENvAUfvsZlut9qc5JrCbTIDPoyc?usp=share_link
+
 Over 8,00,000 people commit suicide due to stress, depression and trauma and the majority of the cases are from the age 19-27 who are all the young energetic forerunners of any nation. Mental disorders affects all humans including people who are disabled, disabled people face high level of discrimination. The demand for psychiatric doctors have increases recently, so to assist the doctors and patients who are both normal and disbaled, D.I.R.L - A web application app which assist people which therapy councilling through video conferences and virtual AI ChatBot with Sign Language Recognition support for people who are vocally disabled.
 
 A web application that acts as a virtual therapist for people who use sign language to communicate via an AI chatbot could be a great way to provide accessible mental health support. An AI chatbot is a piece of software that simulates conversations with users using natural language processing (NLP). It operates through messaging applications and uses machine learning to provide a human-like experience. Chatbots can understand natural human language, emulate human conversation, and run simple automated tasks.
