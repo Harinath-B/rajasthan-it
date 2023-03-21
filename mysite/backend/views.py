@@ -17,9 +17,9 @@ from backend.serializers import doctorAuthSerializer
 @csrf_exempt
 def patienApi(request,id=0):
     if request.method=='GET':
-        id = request.GET.get('userid')
-        print(id)
-        patient = patientData.objects.raw("select * from backend_patientdata where patientId= '{0}' ".format(id))
+        userid = request.GET.get('userid')
+        chatid = request.GET.get('chatid')
+        patient = patientData.objects.raw("select * from backend_patientdata where patientId= '{0}' and chatId = '{1}' ".format(userid, chatid))
         patient_serializer = PatientSerializer(patient, many=True)
         return JsonResponse(patient_serializer.data, safe=False)
 

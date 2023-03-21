@@ -24,4 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^', include('backend.urls')),
     url(r'^', include('camera.urls')),
+    url(r'^', include('chatbot.urls')),
+    url(r'^', include('new_chatbot.urls')),
+
 ]

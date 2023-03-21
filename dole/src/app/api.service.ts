@@ -31,10 +31,26 @@ export class ApiService {
    }
    chat()
    {    
-    return this.http.get(this.url+'patient?userid='+sessionStorage.getItem('userid'),)
+    return this.http.get(this.url+'patient?userid='+sessionStorage.getItem('userid')+'&chatid=1')
+   }
+   newchat()
+   {    
+    return this.http.get(this.url+'patient?userid='+sessionStorage.getItem('userid')+'&chatid=2')
    }
    chat_store(form:any)
    {    
     return this.http.post(this.url+'patient/', form)
+   }
+   chatbot(form:any)
+   {    
+    return this.http.post(this.url+'chat/', form)
+   }
+   newchatbot(form:any)
+   {    
+    return this.http.post(this.url+'tchat/', form)
+   }
+   textfill()
+   {    
+    return this.http.get(this.url+'action/')
    }
 }

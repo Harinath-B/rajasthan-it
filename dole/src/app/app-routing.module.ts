@@ -6,6 +6,7 @@ import { DocRegComponent } from './home/doc-reg/doc-reg.component';
 import { HomeComponent } from './home/home.component';
 import { PatLoginComponent } from './home/pat-login/pat-login.component';
 import { PatRegComponent } from './home/pat-reg/pat-reg.component';
+import { NewChatRoomComponent } from './new-chat-room/new-chat-room.component';
 import { PatientRoomComponent } from './patient-room/patient-room.component';
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path:'chat-room',
     component: ChatRoomComponent
+  },
+  {
+    path:'new-chat-room',
+    component: NewChatRoomComponent
   },
 ];
 

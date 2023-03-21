@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
+import { NewChatRoomComponent } from './new-chat-room/new-chat-room.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ChatRoomComponent } from './chat-room/chat-room.component';
     PatLoginComponent,
     PatRegComponent,
     PatientRoomComponent,
-    ChatRoomComponent
+    ChatRoomComponent,
+    NewChatRoomComponent
   ],
   imports: [
     BrowserModule,

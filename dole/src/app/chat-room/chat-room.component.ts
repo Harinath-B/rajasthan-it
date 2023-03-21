@@ -36,6 +36,29 @@ export class ChatRoomComponent implements OnInit{
         }
       }
     )
+
+    setInterval(()=>
+    {
+
+      this.service.textfill()
+      .subscribe(
+        {
+          next: (response:any)=>
+          {
+            console.log(response);
+
+            if(response.join(' ')=='Idle' && this.mymodel != '')
+              this.add()
+            else if(response.join(' ')=='Idle' && this.mymodel == '')
+              var x
+            else
+              this.mymodel = response.join(' ')
+          }
+        }
+      )
+  
+    }, 2000)
+
   }
 
   ngAfterViewInit() {
@@ -82,27 +105,38 @@ export class ChatRoomComponent implements OnInit{
     this.loading = true
 
     if(this.mymodel != '')
+    {
       this.chat.push({response:'', request:this.mymodel})
+      var x = {request:this.mymodel}
+      this.mymodel = ''
 
-      setTimeout(() => {
-        this.chat[this.chat.length-1].response = "Sorry, I can't Understand What You're Trying to Say"
-        this.loading = false
-        this.chat[this.chat.length-1].patientId = sessionStorage.getItem('userid')
-        this.chat[this.chat.length-1].chatId = '1'
-
-        this.service.chat_store(this.chat[this.chat.length-1])
+        this.service.chatbot(x)
         .subscribe(
           {
-            next: (response)=>{console.log(response);},
-            error: (err)=>{console.log(err);
+            next: (response:any)=>
+            {
+              console.log(response); 
+              this.chat[this.chat.length-1].response = response.response
+              this.loading = false
+              this.chat[this.chat.length-1].patientId = sessionStorage.getItem('userid')
+              this.chat[this.chat.length-1].chatId = '1'
+      
+              this.service.chat_store(this.chat[this.chat.length-1])
+              .subscribe(
+                {
+                  next: (response)=>{console.log(response);},
+                  error: (err)=>{console.log(err);
+                  }
+                }
+              )
+          
+              console.log(this.chat[this.chat.length-1]);
             }
           }
         )
-    
-        console.log(this.chat[this.chat.length-1]);
-      }, 200);
+    }
 
-    this.mymodel = ''
+
 
     setTimeout(() => {
       this.scrollToBottom()      
