@@ -150,7 +150,7 @@ Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [A](https://github.com/Harinath-B/rajasthan-it/)
+Project Link: [D.I.R.L](https://github.com/Harinath-B/rajasthan-it/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
