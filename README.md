@@ -63,6 +63,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+### TEAM: TECHNITOS 
+
 Working of Project Video Link :  https://drive.google.com/drive/folders/1btvQpENvAUfvsZlut9qc5JrCbTIDPoyc?usp=share_link
 
 Over 8,00,000 people commit suicide due to stress, depression and trauma and the majority of the cases are from the age 19-27 who are all the young energetic forerunners of any nation. Mental disorders affects all humans including people who are disabled, disabled people face high level of discrimination. The demand for psychiatric doctors have increases recently, so to assist the doctors and patients who are both normal and disbaled, D.I.R.L - A web application app which assist people which therapy councilling through video conferences and virtual AI ChatBot with Sign Language Recognition support for people who are vocally disabled.
@@ -74,6 +76,8 @@ Virtual therapy can treat a range of speech disorders and can be accessed throug
 Incorporating an AI chatbot into the web application could enhance the user experience by providing quick and personalized responses. The chatbot could also help users navigate the application and access relevant resources.
 
 Overall, this project has the potential to make mental health support more accessible for people who use sign language to communicate. By leveraging technology such as AI chatbots and virtual therapy, this web application could provide valuable support to those in need.
+
+The web application uses opencv, mediapipe and tensorflow for Sign Language Recognition and transformers for NLP using pytorch. The front end is made using Angular and React and the backend is maintained using Django
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,6 +96,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 * ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+* ![OpenCV](![image](https://user-images.githubusercontent.com/46532949/226533561-6f448d0a-6401-474f-9634-5ee40f033676.png)
+* ![Django](![image](https://www.djangoproject.com/m/img/logos/django-logo-negative.svg)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
