@@ -1,0 +1,34 @@
+.block1
+{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    transition: box-shadow .3s;
+}
+.block1:hover {
+    box-shadow: 0 0 100px rgba(33,33,33,.2); 
+  }
+.block2
+{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    transition: box-shadow .3s;
+}
+
+.block2:hover {
+    box-shadow: 0 0 100px rgba(33,33,33,.2); 
+  }
+
+.container
+{
+    background-color:azure;
+}

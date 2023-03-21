@@ -1,0 +1,41 @@
+
+<body>
+    <div class="row">
+        <div class="col-md-6">
+            <iframe src="http://127.0.0.1:8000/" height="680" width="700" title="Iframe Example"></iframe>
+        </div>
+        <div class="col-md-6">
+            <body>
+                <div class="chat-window">
+                    <div class="chat-header">
+                        <h2>D-IRL</h2>
+                    </div>
+                    <div #myDiv class="chat-body px-5 scrollbar-ripe-malinka">
+                        <ul class="chat-list" *ngFor="let i of chat">
+                            <li class="chat-item user">
+                                <img src="../../assets/chat.png" width="40px" height="40px" alt="">&nbsp;&nbsp;&nbsp;
+                                <p>{{i.request}}</p>
+                            </li>
+                            <li class="chat-item chatbot">
+                                <img style="align-items: center; display: flex; justify-content: center;" src="../../assets/cal.png" width="40px" height="40px" alt="">&nbsp;&nbsp;&nbsp;
+                                <p>{{i.response}}</p>
+                            </li>
+                        </ul>
+                        <p *ngIf="loading" >Loading......</p>
+                    </div>
+                    <div class="chat-footer">
+                            <textarea (keydown)="onkeydown($event)" (ngModelChange)="height()" [(ngModel)]="mymodel" #textarea type="text" placeholder="Type your message..."></textarea>
+                            <i (click)="add()" class="fa fa-send" style="font-size: 30px; margin-bottom: 15px; cursor: pointer;"></i>
+                    </div>
+                </div>
+            </body>
+        </div>
+    </div>
+        
+</body>
+
+
+
+<!-- 
+<input type="text" [(ngModel)]="text">
+<button (click)="func()" >click</button> -->

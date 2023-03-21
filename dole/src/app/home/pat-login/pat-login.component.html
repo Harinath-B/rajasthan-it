@@ -1,0 +1,22 @@
+<div class="bd">
+    <div class="container1 pt-2`">
+        <button  class="btn-primary" id="logout" routerLink="/home">
+            <span class="glyphicon glyphicon-home"></span> 
+          </button> <div class="form-container">
+     
+                <h1 class="text-center pt-3 text" style="color:black;">Patient Login</h1>
+                <form [formGroup]="form">
+                   
+                        <label class="col-form-label" style="color: black;">User name</label>
+                        <input formControlName="username" style="font-size: 16px;" type="text" class="form-control">
+                     <br>
+            
+                        <label class="col-form-label" style="color: black;">Password:</label>
+                        <input formControlName="password" style="font-size: 16px;" type="password" class="form-control">
+              <br>
+                <button mat-raised-button type="submit" (click)="submit()" class="btn">Sign In</button><br><br>
+                <h3 class="register" style="margin-left: 20%; align-items: center; cursor: pointer;"> Don't Have an Account? Register here</h3>
+                </form></div>
+            </div>
+        </div>
+ 
