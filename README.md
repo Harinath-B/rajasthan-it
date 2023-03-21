@@ -24,19 +24,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/Harinath-B/rajasthan-it">
-    <img src="images/logo.png" alt="Logo" width="200" height="200">
+    <img src="images/logo.png" alt="Logo" width="500" height="500">
   </a>
 
   <h3 align="center">D..I.R.L</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/Harinath-B/rajasthan-it"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-  </p>
 </div>
 
 
