@@ -27,7 +27,7 @@
     <img src="images/logo.png" alt="Logo" width="500" height="500">
   </a>
 
-  <h3 align="center">D..I.R.L</h3>
+  <h3 align="center">D.I.R.L</h3>
 </div>
 
 
