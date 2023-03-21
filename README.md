@@ -63,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Over 8,00,000 people commit suicide due to stress, depression and trauma and the majority of the cases are from the age 19-27 who are all the young energetic forerunners of any nation. Mental disorders affects all humans including people who are disabled, disabled people face high level of discrimination. The demand for psychiatric doctors have increases recently, so to assist the doctors and patients who are both normal and disbaled, D.I.R.L - A web application app which assist people which therapy councilling through video conferences and virtual AI ChatBot with Sign Language Recognition support for people who are vocally disabled.
 
 A web application that acts as a virtual therapist for people who use sign language to communicate via an AI chatbot could be a great way to provide accessible mental health support. An AI chatbot is a piece of software that simulates conversations with users using natural language processing (NLP). It operates through messaging applications and uses machine learning to provide a human-like experience. Chatbots can understand natural human language, emulate human conversation, and run simple automated tasks.
 
@@ -108,34 +108,9 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+ ```sh
+    pip install requirements.txt
+  ```
 
 <!-- LICENSE -->
 ## License
