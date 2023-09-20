@@ -47,9 +47,9 @@ export class ChatRoomComponent implements OnInit{
           {
             console.log(response);
 
-            if(response.join(' ')=='Idle' && this.mymodel != '')
-              this.add()
-            else if(response.join(' ')=='Idle' && this.mymodel == '')
+            if(response.join(' ')=='Idle' && this.mymodel == '')
+              var x
+            else if(response[response.length-1]=='Idle')
               var x
             else
               this.mymodel = response.join(' ')
@@ -57,7 +57,7 @@ export class ChatRoomComponent implements OnInit{
         }
       )
   
-    }, 2000)
+    }, 100000)
 
   }
 

@@ -26,7 +26,7 @@ def chatApi(request,id=0):
 
     print(result.text) # This sentence has bad grammar.
 
-    API_KEY = "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"
+    API_KEY = "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"
     openai.api_key = API_KEY
 
     start_sequence = "\nAI:"

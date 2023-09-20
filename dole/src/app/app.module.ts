@@ -14,6 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
 import { NewChatRoomComponent } from './new-chat-room/new-chat-room.component';
+import { MentalHealthComponent } from './mental-health/mental-health.component';
+import { MentalHealthDocComponent } from './mental-health-doc/mental-health-doc.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { NewChatRoomComponent } from './new-chat-room/new-chat-room.component';
     PatRegComponent,
     PatientRoomComponent,
     ChatRoomComponent,
-    NewChatRoomComponent
+    NewChatRoomComponent,
+    MentalHealthComponent,
+    MentalHealthDocComponent
   ],
   imports: [
     BrowserModule,

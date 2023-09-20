@@ -33,7 +33,7 @@ export class DocLoginComponent {
           if(response.message == 'success')
           {
             sessionStorage.setItem('doctorid', response.id)
-            this.router.navigate(['/home'])
+            this.router.navigate(['/mental-health-doc'])
           }
           else
             alert(response.message)

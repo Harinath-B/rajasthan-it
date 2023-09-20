@@ -47,12 +47,12 @@ export class NewChatRoomComponent implements OnInit{
           {
             console.log(response);
 
-            if(response.join(' ')=='Idle' && this.mymodel == '')
-              var x
-            else if(response[response.length-1]=='Idle')
-              var x
-            else
-              this.mymodel = response.join(' ')
+            // if(response.join(' ')=='Idle' && this.mymodel == '')
+            //   var x
+            // else if(response[response.length-1]=='Idle')
+            //   var x
+            // else
+            //   this.mymodel = response.join(' ')
           }
         }
       )
@@ -108,7 +108,6 @@ export class NewChatRoomComponent implements OnInit{
     {
       this.chat.push({response:'', request:this.mymodel})
       var x = {request:this.mymodel}
-      this.mymodel = ''
 
         this.service.newchatbot(x)
         .subscribe(

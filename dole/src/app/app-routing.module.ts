@@ -8,6 +8,8 @@ import { PatLoginComponent } from './home/pat-login/pat-login.component';
 import { PatRegComponent } from './home/pat-reg/pat-reg.component';
 import { NewChatRoomComponent } from './new-chat-room/new-chat-room.component';
 import { PatientRoomComponent } from './patient-room/patient-room.component';
+import { MentalHealthComponent } from './mental-health/mental-health.component';
+import { MentalHealthDocComponent } from './mental-health-doc/mental-health-doc.component';
 
 const routes: Routes = [
   {
@@ -47,6 +49,14 @@ const routes: Routes = [
   {
     path:'new-chat-room',
     component: NewChatRoomComponent
+  },
+  {
+    path:'mental-health',
+    component: MentalHealthComponent
+  },
+  {
+    path:'mental-health-doc',
+    component: MentalHealthDocComponent
   },
 ];
 

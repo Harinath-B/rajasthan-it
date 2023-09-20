@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .user-info {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 70%;
+    margin: 20px auto;
+  }
+  

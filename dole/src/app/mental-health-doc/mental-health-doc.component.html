@@ -1,0 +1,29 @@
+<div class="user-info">
+  <h1>Welcome {{ username }}!!</h1>
+</div><br><br>
+<div class="container">
+
+  <div class="student-list">
+    <h2>Student List</h2>
+    <ul>
+      <li *ngFor="let student of students" (click)="showStudentMarks(student)">{{ student.name }}</li>
+    </ul>
+  </div>
+  <div class="student-marks">
+    <h2>Student Marks</h2><span *ngIf="flag">Overall Mental Health Score: {{ overallScore }}%</span>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Assessment</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let mark of selectedStudentMarks">
+          <td>{{ mark.name }}</td>
+          <td>{{ mark.score }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

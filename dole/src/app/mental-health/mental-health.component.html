@@ -1,0 +1,22 @@
+<div class="user-info">
+    <h1>Welcome {{ username }}!!</h1>
+    <h2>Overall Mental Health Score: {{ overallScore }}%</h2>
+  </div>
+<div class="container">
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Assessment</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let assessment of assessments">
+          <td>{{ assessment.name }}</td>
+          <td>{{ assessment.score }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

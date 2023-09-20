@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.user-info {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.student-list {
+  width: 30%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.student-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+  background-color: #e6e6e6;
+}
+
+.student-marks {
+  width: 70%;
+  padding: 20px;
+}
+
+.student-marks h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
